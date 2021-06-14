@@ -1,0 +1,125 @@
+/* * {
+    margin: 0;
+    padding: 0;
+  } */
+
+header {
+    display: flex;
+    justify-content: space-between;
+    color: cornsilk;
+    width: 800px;
+    background-color: rgb(97, 107, 78);
+    padding: 20px;
+}
+
+.basket {
+    width: 550px;
+    height: 50px;
+    font-size: 20px;
+    color: rgb(22, 22, 24);
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#popup {
+    width: 700px;
+    height: 500px;
+    background-color: #ccc;
+    border: 1px solid #999;
+    border-radius: 6px;
+    position: fixed;
+    top: 100px;
+    left: calc(50% - 350px);
+    display: none;
+    padding: 15px;
+    margin-top: 15px;
+}
+
+.cartItem{
+    display: flex;
+    justify-content: space-between;
+}
+
+.blockPopup {
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+}
+
+#closePopupBtn{
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.rollupBtn {
+    margin-top: 15px;
+    height: 30px;
+    border-radius: 3px;
+    background-color: #ccc;
+}
+
+#product-item {
+    display: flex;
+    justify-content: space-between;
+}
+
+#basketOut {
+    padding-left: 15px;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+}
+
+.product-card {
+    width: 250px;
+    height: 320px;
+    background-color: rgb(178, 223, 193);
+    padding: 15px;
+}
+
+.products {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.img-card {
+    width: 100%;
+}
+
+.button {
+    font-weight: 700;
+    color: white;
+    text-decoration: none;
+    padding: .8em 1em calc(.8em + 3px);
+    border-radius: 3px;
+    background: rgb(64,199,129);
+    box-shadow: 0 -3px rgb(53,167,110) inset;
+    transition: 0.2s;
+  } 
+
+.button-open {
+    height: 50px;
+    font-weight: 700;
+    color: white;
+    text-decoration: none;
+    padding: .8em 1em calc(.8em + 3px);
+    border-radius: 3px;
+    background: rgb(64,199,129);
+    box-shadow: 0 -3px rgb(53,167,110) inset;
+    transition: 0.2s;
+}
+
+.text__input_form {
+    font-size: 16px;
+    line-height: 30px;
+    letter-spacing: 0.04em;
+    color: #1F3F68;
+    opacity: 0.8;
+    padding-bottom: 4px;
+  }
