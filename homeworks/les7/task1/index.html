@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <header>
+        <h1>Магазин</h1>
+        <div class='basket'>
+            <img src="img/basket.png" alt="">
+            <div id='basketOut'></div>
+            <button id='showPopupBtn' class='button-open'>Оформить заказ</button>
+        </div>
+    </header>
+
+    <div id='products' class='products'></div>
+
+    <div id="popup">
+        <button id="closePopupBtn">&#x2715;</button>
+        <div id="basketPopup" class="blockPopup">
+            <p class="text__input_form">Состав корзины</p>
+            <div id="basketList"></div>
+            <button id="basketRollupBtn" class="rollupBtn">Далее</button>
+        </div>
+        <div id="adressPopup" class="blockPopup">
+            <p class="text__input_form">Адрес доставки</p>
+            <textarea class="input_form message" cols="50" rows="5" placeholder="Адрес доставки"></textarea>
+            <button id="adressRollupBtn" class="rollupBtn">Далее</button>
+        </div>
+        <div id="commentsPopup" class="blockPopup">
+            <p class="text__input_form">Комментарии</p>
+            <textarea class="input_form message" cols="50" rows="5" placeholder="Комментарии"></textarea>
+        </div>
+    </div>
+    <script src='main.js'></script>
+</body>
+
+</html>
